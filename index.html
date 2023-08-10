@@ -1,62 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tu Página</title>
-    <!-- Enlace a Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        /* Estilos personalizados */
-        /* Añade aquí tus estilos personalizados */
-    </style>
+    <title>Mi Página con Bootstrap</title>
+    <!-- Enlace a los estilos de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-
-    <!-- Header -->
-    <header class="bg-primary text-white text-center py-4">
-        <h1>Header</h1>
+    <!-- Encabezado -->
+    <header class="bg-primary text-white text-center py-3">
+        <h1>Mi Página Web</h1>
     </header>
 
-    <!-- Contenedor principal -->
-    <div class="container mt-4">
+    <!-- Sección Principal -->
+    <div class="container my-4">
         <div class="row">
-            <!-- Menú izquierdo -->
-            <div class="col-md-3">
-                <nav class="nav flex-column bg-light p-3">
-                    <a class="nav-link" href="#">Menú Izquierdo 1</a>
-                    <a class="nav-link" href="#">Menú Izquierdo 2</a>
-                    <!-- Añade más enlaces aquí -->
-                </nav>
-            </div>
+            <!-- Menú Izquierdo -->
+            <nav class="col-md-3">
+                <ul class="list-group">
+                    <li class="list-group-item">Menú Izquierdo</li>
+                    <li class="list-group-item">Opción 1</li>
+                    <li class="list-group-item">Opción 2</li>
+                </ul>
+            </nav>
 
-            <!-- Contenido principal -->
-            <div class="col-md-6">
-                <section class="bg-light p-4">
+            <!-- Contenido Principal -->
+            <main class="col-md-6">
+                <section>
                     <h2>Contenido Principal</h2>
-                    <!-- Agrega aquí el contenido del medio -->
+                    <p>Aquí va tu contenido principal.</p>
                 </section>
-            </div>
+            </main>
 
-            <!-- Menú derecho -->
-            <div class="col-md-3">
-                <nav class="nav flex-column bg-light p-3">
-                    <a class="nav-link" href="#">Menú Derecho 1</a>
-                    <a class="nav-link" href="#">Menú Derecho 2</a>
-                    <!-- Añade más enlaces aquí -->
-                </nav>
-            </div>
+            <!-- Menú Derecho -->
+            <nav class="col-md-3">
+                <ul class="list-group">
+                    <li class="list-group-item">Menú Derecho</li>
+                    <li class="list-group-item">Opción A</li>
+                    <li class="list-group-item">Opción B</li>
+                </ul>
+            </nav>
         </div>
     </div>
 
-    <!-- Footer -->
+    <!-- Pie de Página -->
     <footer class="bg-dark text-white text-center py-3">
-        <p>Footer</p>
+        <p>Derechos Reservados &copy; 2023</p>
     </footer>
 
-    <!-- Enlace a Bootstrap JS (opcional si planeas utilizar componentes interactivos de Bootstrap) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Scripts de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
