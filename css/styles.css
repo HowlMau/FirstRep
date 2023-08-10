@@ -1,0 +1,29 @@
+/* Estilos Night Mode */
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+header, footer {
+    background-color: #0e0e0e;
+}
+
+.list-group-item {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    border-color: #333333;
+}
+
+/* Estilos específicos para menús */
+nav {
+    padding: 1rem;
+}
+
+/* Cambios de color para enlaces */
+a {
+    color: #64b5f6;
+}
+
+a:hover {
+    color: #42a5f5;
+}
