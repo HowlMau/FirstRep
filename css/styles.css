@@ -27,3 +27,8 @@ a {
 a:hover {
     color: #42a5f5;
 }
+
+.list-group-item:hover {
+    background-color: #f0f0f0; /* Cambia el color de fondo al pasar el mouse */
+    border-color: #ddd; /* Cambia el color del borde al pasar el mouse */
+}
